@@ -1,0 +1,111 @@
+.contact_information {
+    display: flex;
+    border: 2px solid black;
+    width: 320px;
+    flex-direction: column;
+}
+
+.back-to-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    border: 2px solid rgb(0, 0, 0);
+    margin: 10px 0px;
+    cursor: pointer;
+}
+
+.contact_text {
+    margin: 5px;
+    text-align: center;
+    line-height: 20px;
+}
+
+.icon_contact {
+    margin: 5px;
+    width: 20px;
+}
+
+.contact_header {
+    justify-self: center;
+    width: 150px;
+    margin:40px 80px;
+    left: 10px;
+    position: relative;
+}
+
+.profile_icon {
+    margin: 10px;
+    position: fixed;
+    right: 10px;
+    border: 2px solid black;
+}
+
+.contact_name {
+    margin: 10px;
+}
+
+.contact_position {
+    margin: 10px;
+}
+
+
+.icon_button{
+    margin : 5px;
+    border : none;
+    border-radius : 50%;
+    cursor: pointer;
+}
+
+.activity_list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    margin:10px;
+}
+
+.activity_item {
+    display: flex;
+    flex-direction: column;
+}
+
+.activity_name {
+    font-size: 10px;
+    margin: 10px;
+}
+
+.icon_note , .icon_mail, .icon_call, .icon_log, .icon_task, .icon_meeting{
+    width: 25px;
+}
+
+.about_contact {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.key_name {
+    font-size: 15px;
+    margin: 15px 0px;
+}
+
+
+.value_name {
+    font-size: 10px;
+    margin: 15px 0px;
+    text-decoration-line: underline;;
+}
+
+.view-all-properties {
+    margin: 10px 35px;
+    width: 200px;
+}
+
+.view-property-history {
+    margin: 10px 35px;
+    width: 200px;
+
+}
+
+.website_activity {
+    margin: 10px;
+}
